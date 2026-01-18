@@ -2,6 +2,6 @@ package org.example
 
 class User{
     fun greet(){
-        println("Hello, User!")
+        println("Hello from Onkar!")
     }
 }
