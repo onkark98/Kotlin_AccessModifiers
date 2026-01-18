@@ -53,5 +53,21 @@
 - Kotlin enforces architectural boundaries
 - Java relies on conventions
 
+## Top-Level Functions
+
+### Kotlin
+- Functions can exist outside classes
+- Access modifiers apply at file level
+- Enables clean utility and helper functions
+
+### Java
+- Functions must belong to a class
+- Utility classes rely on static methods
+- No file-level encapsulation
+
+### Key Advantage
+- Kotlin reduces boilerplate
+- Stronger encapsulation with simpler design
+
 ## Key Difference from Java
 - Kotlin does NOT have package-private
