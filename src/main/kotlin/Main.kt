@@ -13,4 +13,7 @@ fun main() {
     //user.secret() // Error: Cannot access 'secret' because it is private in 'User'
     //helper() // Error: Cannot access 'helper': it is private in Utils.kt
     publicUtil()
+    val dog = Dog()
+    dog.action()
+    //dog.breathe() // Error: Cannot access 'breathe': it is protected in 'Animal'
 }
