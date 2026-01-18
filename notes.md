@@ -16,6 +16,10 @@
 - Private members visible only inside class
 - No file-level private
 
+- Package-private (default): no modifier
+- Accessible within the same package only
+- Commonly used for internal helpers but offers weaker boundaries than Kotlin `internal`
+
 ### Key Difference
 - Kotlin supports file-level encapsulation
 - Java relies on packages
@@ -69,5 +73,25 @@
 - Kotlin reduces boilerplate
 - Stronger encapsulation with simpler design
 
-## Key Difference from Java
-- Kotlin does NOT have package-private
+
+> ### Summary Box 1 — Default Design Philosophy
+> **Kotlin**
+> - Classes are `final` by default
+> - Inheritance must be explicit using `open`
+> - Encourages composition over inheritance
+>
+> **Java**
+> - Classes are inheritable by default
+> - Inheritance is implicit
+> - Requires conventions to avoid misuse
+
+> ### Summary Box 2 — Encapsulation Boundary
+> **Kotlin**
+> - Uses `internal` for module-level visibility
+> - No package-private access
+> - Stronger architectural boundaries
+>
+> **Java**
+> - Uses package-private (default) visibility
+> - Packages act as the primary boundary
+> - Boundaries are weaker and convention-based
