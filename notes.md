@@ -20,5 +20,22 @@
 - Kotlin supports file-level encapsulation
 - Java relies on packages
 
+## Protected Access Modifier
+
+### Kotlin
+- Classes are final by default
+- `open` keyword required for inheritance
+- `protected` members accessible only in subclasses
+- No package-based access
+
+### Java
+- Classes are inheritable by default
+- `protected` allows access in same package
+- Subclasses can access protected members
+
+### Key Difference
+- Kotlin enforces stricter encapsulation
+- Java allows wider access via packages
+
 ## Key Difference from Java
 - Kotlin does NOT have package-private
