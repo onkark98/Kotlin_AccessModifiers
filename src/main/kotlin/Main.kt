@@ -16,4 +16,6 @@ fun main() {
     val dog = Dog()
     dog.action()
     //dog.breathe() // Error: Cannot access 'breathe': it is protected in 'Animal'
+    val service = PaymentService()
+    service.process()
 }
