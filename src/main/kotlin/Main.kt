@@ -10,4 +10,7 @@ fun main() {
 
     val user = User()
     user.greet()
+    //user.secret() // Error: Cannot access 'secret' because it is private in 'User'
+    //helper() // Error: Cannot access 'helper': it is private in Utils.kt
+    publicUtil()
 }
