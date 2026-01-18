@@ -37,5 +37,21 @@
 - Kotlin enforces stricter encapsulation
 - Java allows wider access via packages
 
+## Internal Access Modifier (Kotlin-only)
+
+### Kotlin
+- Visible only within the same module
+- Stronger boundary than packages
+- Ideal for service and repository layers
+
+### Java
+- No module-level visibility (pre-JPMS)
+- Closest equivalent is package-private
+- Package access is weaker and error-prone
+
+### Key Difference
+- Kotlin enforces architectural boundaries
+- Java relies on conventions
+
 ## Key Difference from Java
 - Kotlin does NOT have package-private
