@@ -18,4 +18,7 @@ fun main() {
     //dog.breathe() // Error: Cannot access 'breathe': it is protected in 'Animal'
     val service = PaymentService()
     service.process()
+    printName("  kotLIn  ")
+    formatName("test")
+    //normalize("  test  ") // Error: Cannot access 'normalize': it is private in 'StringUtils.kt'
 }

@@ -5,5 +5,8 @@ public class Main {
         Dog dog = new Dog();
         dog.action();
         dog.breathe(); // It is allowed here (package level access)
+        StringUtils.printName("  Alice  ");
+        StringUtils.formatName("Alice");
+        //StringUtils.normalize("  Alice  "); // Not allowed (private access)
     }
 }
