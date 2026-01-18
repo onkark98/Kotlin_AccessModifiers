@@ -6,6 +6,6 @@ class User{
     }
 
     fun greet(){
-        println("Hello from Onkar!")
+        secret()
     }
 }

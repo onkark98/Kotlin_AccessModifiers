@@ -6,9 +6,19 @@
 - Class-level: accessible everywhere
 - File-level: accessible everywhere
 
-## Private
-- Class-level: accessible only within the class
-- File-level: accessible only within the same file
+## Private Access Modifier
+
+### Kotlin
+- Private members visible only inside class
+- Top-level private is file-scoped
+
+### Java
+- Private members visible only inside class
+- No file-level private
+
+### Key Difference
+- Kotlin supports file-level encapsulation
+- Java relies on packages
 
 ## Key Difference from Java
 - Kotlin does NOT have package-private
